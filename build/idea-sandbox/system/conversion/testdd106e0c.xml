@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+    <converter id="junit-to-android-junit-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="/Users/amirhossein/Documents/projects/SAPP/test/.idea/kotlinc.xml" timestamp="1647599642000" />
+    <file path="/Users/amirhossein/Documents/projects/SAPP/test/.idea/libraries/KotlinJavaRuntime.xml" timestamp="1647599642000" />
+    <file path="/Users/amirhossein/Documents/projects/SAPP/test/.idea/misc.xml" timestamp="1647599640000" />
+    <file path="/Users/amirhossein/Documents/projects/SAPP/test/.idea/modules.xml" timestamp="1647599642000" />
+    <file path="/Users/amirhossein/Documents/projects/SAPP/test/.idea/vcs.xml" timestamp="1647601838000" />
+    <file path="/Users/amirhossein/Documents/projects/SAPP/test/.idea/workspace.xml" timestamp="1647611862000" />
+    <file path="/Users/amirhossein/Documents/projects/SAPP/test/test.iml" timestamp="1647599642000" />
+  </project-files>
+</conversion>
+

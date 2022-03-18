@@ -1,0 +1,32 @@
+<idea-plugin>
+    <id>amir.github.GithubSearch</id>
+    <name>Plugin display name here</name>
+    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+    <description><![CDATA[
+    Enter short description for your plugin here.<br>
+    <em>most HTML tags may be used</em>
+    ]]></description>
+
+
+    <extensions defaultExtensionNs="com.intellij">
+
+        <toolWindow id="Search Source in Github" anchor="right" secondary="true" icon="AllIcons.General.Modified"
+                    factoryClass="amir.github.actions.MyToolWindowFactory"/>
+
+    </extensions>
+
+    <actions>
+
+
+        <group id="MyIdeaDemo.HelloAction" text="MyIdeaDemo" description="about my idea">
+
+            <add-to-group group-id="MainMenu" anchor="last"/>
+
+            <action class="amir.github.actions.MyAction" id="MyIdeaDemo.Actions.HelloAction" text="Say Hello"/>
+
+        </group>
+
+
+     </actions>
+</idea-plugin>
